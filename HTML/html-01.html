@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width">
+    <title>Ejemplo SVG</title>
+</head>
+<body>
+
+    <h1>Ejemplo de SVG en HTML</h1>
+
+    <!-- SVG de un círculo azul -->
+    <svg width="100" height="100">
+    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="blue" />
+    </svg>
+<svg width="200" height="200">
+  <!-- Fondo amarillo -->
+  <rect x="0" y="0" width="200" height="200" fill="yellow" stroke="blue" stroke-width="5"/>
+
+  <!-- Ojo izquierdo -->
+  <rect x="40" y="40" width="40" height="40" fill="blue" stroke="black" stroke-width="5"/>
+
+  <!-- Ojo derecho -->
+  <rect x="120" y="40" width="40" height="40" fill="blue" stroke="black" stroke-width="5"/>
+
+  <!-- Boca -->
+  <rect x="40" y="110" width="120" height="40" fill="blue" stroke="black" stroke-width="5"/>
+      <animate
+      attributeName="cx"
+      begin="0s"
+      dur="8s"
+      from="50"
+      to="90%"
+      repeatCount="indefinite" />
+</svg>
+
+
+</body>
+</html>
