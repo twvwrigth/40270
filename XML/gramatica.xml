@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="URF-8" ?>
+<gramatica>
+    <regla>
+    //Estructuras básicas para el uso del print
+        <nombre>impresion</nombre>
+        <definicion>
+        'print' '(' expresion ')' ';'
+        </definicion>
+    </regla>
+    <regla>
+    //Estructuras básicas para el uso de comentarios
+        <nombre>comentario</nombre>
+        <definicion>
+        '//' texto 
+        '/' texto '/'
+        </definicion>
+    </regla>
+</gramatica>
