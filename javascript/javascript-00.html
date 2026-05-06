@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="id1">Titulo</h1>
+    <h2 id="id2">DOM Document Object model</h2>
+    <h2>API Application Programming Interface</h2>
+    <p id="id3">Esto es un parrafo</p>
+    <button id="id4" onclick="escribir()">Hola</button>
+
+
+    <!--Elementos de formulario    -->
+    <input type="text">
+
+    <script>
+        // Esto es un comentario de una sola línea
+        //var elemento = 1;
+        //let elemento = "UNO";
+        const elemento = [1, 2, 3, 4];
+        console.log(elemento);
+
+        function nombre() {
+            console.log('Hola estas bien bonita');
+        }
+
+        console.log('Hola estas bien bonita');
+
+        //Diferentes tipos de estucturas for.
+        for (const key in elemento) {
+            if (!Object.hasOwn(elemento, key)) continue;
+
+            const element = elemento[key];
+            console.log(element);
+
+
+        }
+
+        for (k in elemento) {
+            console.log(elemento[k]);
+        }
+
+        for (j = 0; j < elemento.length; j++) {
+            console.log(elemento[j]);
+        }
+
+        for (i = 0; i < 10; i++) {
+            if (i < 9)
+                console.log("hola mundo" + i);
+            nombre();
+        }
+
+        //manipular el DOM
+        let html = document
+        let html2 = html.getElementById("id1");
+        console.log(html2.innerText);
+        html2.innerText = "fin de la clase";
+
+        function escribir() {
+            let entrada = document.getElementsByTagName("input");
+            console.log(entrada);
+            for (const key in entrada) {
+                if (!Object.hasOwn(entrada, key)) continue;
+
+                const element = entrada[key];
+                console.log(element);
+
+            }
+            let valor_entrada = entrada[0].value;
+            console.log(valor_entrada);
+            html2.innerText = valor_entrada;
+        }
+
+
+
+    </script>
+</body>
+
+</html>
