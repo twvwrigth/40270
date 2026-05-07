@@ -1,34 +1,31 @@
-button{
+button {
     width: 25%;
     height: 50px;
-    
 }
-button[id = "b0"]{
+
+button[id="b0"]{
     width: 75%;
 }
-div{
+
+div {
     width: 100%;
-    height: 100%;
     display: flex;
     flex-wrap: wrap;
 }
+
 input{
     width: 100%;
-    height: 50px;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    margin-bottom: 3px;
 }
 
-.Igual{
+.igual {
     width: 75%;
-    background-color: chocolate;
-    color: white;
 }
 
-.Borrar{
-    background-color: chocolate;
-    color: white;
-}
-
-.Operador{
-    background-color: chocolate;
-    color: white
+.operador {
+    background-color: wheat;
 }
