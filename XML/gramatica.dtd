@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE gramatica [
-    <!ELEMENT gramatica (regla+)>
-    <!ELEMENT regla (nombre, definicion)>
-    <!ELEMENT nombre (#PCDATA)>
-    <!ELEMENT definicion (#PCDATA)>
-]>
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT autos (auto*)>
+<!ELEMENT auto (marca, modelo, año)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+
+
+
+

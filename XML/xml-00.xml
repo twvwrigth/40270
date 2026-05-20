@@ -1,5 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<alumno>
-    <nombre>Eren Jaeger</nombre>
-    <nacimiento>1998-03-15</nacimiento>
-</alumno>
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE alumnos SYSTEM "xml-00.dtd">
+<alumnos>
+    <alumno>
+        <nombre>Eren Jaeger </nombre>
+        <nacimiento>30/marzo/835</nacimiento>
+    </alumno>
+    <alumno>
+        <nombre>Mikasa Ackerman</nombre>
+        <nacimiento>15/abril/835</nacimiento>
+    </alumno>
+    <alumno>
+        <nombre>Levi Ackerman</nombre>
+        <nacimiento>10/mayo/835</nacimiento>
+    </alumno>
+</alumnos>
